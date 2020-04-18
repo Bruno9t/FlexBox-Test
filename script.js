@@ -8,7 +8,7 @@ function adicionar(){
     let item = document.createElement('div')
 
     item.innerHTML = `Caixa ${caixa.childElementCount+1}`
-    res.innerHTML = `Temos ${caixa.childElementCount+1} produtos cadastrados`
+    res.innerHTML = `Temos ${caixa.childElementCount+1} caixas!`
 
 
     caixa.appendChild(item)
